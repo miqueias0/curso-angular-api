@@ -1,0 +1,5 @@
+<form class="form" [formGroup]="forms">
+    <input formControlName="username" placeholder="Usuário" type="text">
+    <input formControlName="password" placeholder="Senha" type="password">
+    <button mat-flat-button (click)="login()" (keydown.enter)="login()">Entrar</button>
+</form>
