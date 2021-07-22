@@ -7,7 +7,7 @@ import { PainelComponent } from './painel/painel.component';
 const routes: Routes = [
   {path: 'login', component: LoginComponent},
   {path: 'painel', component: PainelComponent},
-  {path: '**', pathMatch:'full', redirectTo: 'login'}
+  {path: '**', pathMatch:'full'}
 ];
 
 @NgModule({
